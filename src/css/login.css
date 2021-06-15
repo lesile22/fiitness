@@ -1,0 +1,73 @@
+/* 登录页面的css */
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+   width: 100%;
+   height: 852px;
+   background:url("../img/sign-bg.jpg");
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+header p{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 5%;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav p{
+    font-size: 28px;
+    color: #fff;
+    margin-left: 10%;
+}
+main{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+input{
+    width: 90%;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 100);
+    opacity: 0.5;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 20px;
+}
+.login{
+    background: #63FFA7 10000%;
+    text-align: center;
+}
+.forget{
+    display: flex;
+    justify-content: space-around;
+}
+a:first-child{
+    margin-left: 40%;
+}
+a{
+    font-size: 16px;
+    color: #fff;
+}
+footer{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+}

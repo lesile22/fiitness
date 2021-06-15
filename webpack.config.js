@@ -19,6 +19,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 module.exports = {
     // 入口  ：entry:导入文件
     entry: {
+        commonCSS:"./src/js/commonCSS.js",
         index: "./src/js/index.js",
         register: "./src/js/register.js",
         login:"./src/js/login.js"
@@ -94,7 +95,7 @@ module.exports = {
             // 以哪个页面作为打包的模板---打包那个页面
             template: "./src/page/index.html",
             filename: "index.html",
-            chunks:["index"]
+            chunks: ["index","commonCSS"]
         }),
         new HtmlWebpackPlugin({
             // 以哪个页面作为打包的模板---打包那个页面
